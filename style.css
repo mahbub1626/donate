@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    width: 1440px;
+    font-family: 'Signika', sans-serif;
+}
+
+section {
+    margin-top: 0px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner-bg-image.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 670px;
+    margin-top: 0px;
+}
+
+.top-bannner-01 {
+    text-align: center;
+    padding: 167px;
+    text-align: center;
+}
+
+.top-bannner-01 h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.top-bannner-01 p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+    font-size: 700;
+}
+
+
+.donate-today {
+    width: 100%;
+}
+
+.donate-today h1 {
+    color: tomato;
+    font-size: 50px;
+    text-align: center;
+}
+
+.five-box {
+    width: 54%;
+    padding: 0px;
+    display: flex;
+    margin-left: 326px;
+}
+
+.donate-today p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.box {
+    width: 135px;
+    height: 123px;
+    background-color: rgb(240, 240, 240);
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+h2 {
+    color: rgb(94, 92, 92);
+    text-align: center;
+    padding-top: 29px;
+}
+
+.input-and-button {
+    width: 52.5%;
+    text-align: center;
+    display: block;
+    margin-left: 345px;
+    margin-top: 24px;
+}
+
+input {
+    border: none;
+}
