@@ -9,7 +9,7 @@ section {
 }
 
 .top-banner {
-    background-image: url(images/top-banner-bg-image.jpg);
+    background-image: url(images/top-banner-donate.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 670px;
@@ -37,9 +37,9 @@ a {
     text-decoration: none;
     padding: 15px 40px;
     color: white;
-    background-color: tomato;
+    background-image: linear-gradient(#3A34C8, #873EAF);
     border-radius: 5px;
-    font-size: 700;
+    font-weight: 700;
 }
 
 
@@ -48,7 +48,7 @@ a {
 }
 
 .donate-today h1 {
-    color: tomato;
+    color: #3A34C8;
     font-size: 50px;
     text-align: center;
 }
@@ -111,7 +111,7 @@ a {
     padding: 10px;
 }
 
-.three-pala-box {
+.three-plan-box {
     display: flex;
     width: 80%;
     margin-left: 144px;
@@ -120,15 +120,37 @@ a {
 .plan-box {
     width: 360px;
     height: 271px;
-    background-color: bisque;
     margin-left: 18px;
     text-align: justify;
 }
 
-.plan-box img,
-.plan-box p,
+.plan-box img {
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    padding-left: 145px;
+}
+
 .plan-box h2 {
     padding: 10px;
+    text-align: center;
+}
+
+.plan-box p {
+    padding: 10px;
+    text-align: justify;
+}
+
+#plan-box-one {
+    background-color: rgba(255, 222, 173, 0.692);
+}
+
+#plan-box-two {
+    background-color: rgba(0, 179, 250, 0.623);
+}
+
+#plan-box-three {
+    background-color: rgba(255, 222, 173, 0.692);
 }
 
 .section-four {
@@ -145,10 +167,15 @@ a {
     width: 350px;
     height: 350px;
     box-shadow: 10px 10px 30px grey;
+    border-radius: 12px;
 }
 
 .section-four-text {
     width: 50%;
+}
+
+.section-four-text h1 {
+    color: #3A34C8;
 }
 
 .section-four-text p {
@@ -166,6 +193,12 @@ a {
 .subscribe {
     text-align: center;
 }
+
+.subscribe h1 {
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+}
+
 
 .subscribe img {
     width: 60px;
@@ -186,7 +219,7 @@ a {
 
 .subscribe-button button {
     padding: 10px 30px;
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(#3A34C8, #873EAF);
     border-radius: 0px 5px 5px 0px;
     border: none;
     color: white;
