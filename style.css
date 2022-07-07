@@ -66,6 +66,16 @@ a {
 
 }
 
+#box-200tk {
+    background-color: #FFEEEE;
+    border: 3px solid #6039BB;
+
+}
+
+#box-200tk h2 {
+    color: #3A34C8;
+}
+
 .box {
     width: 135px;
     height: 123px;
